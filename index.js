@@ -1,9 +1,9 @@
 'use strict';
 
 import React, { Component } from 'react'
-import { View, NativeMethodsMixin, Dimensions } from 'react-native'
+import { View, Dimensions } from 'react-native'
 
-exports.InViewPort = class extends Component {
+export default class InViewPort extends Component {
   constructor(props) {
     super(props)
     this.state = { rectTop: 0, rectBottom: 0 }
